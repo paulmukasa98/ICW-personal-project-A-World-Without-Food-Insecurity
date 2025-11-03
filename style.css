@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: #352b2b;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding:10px 30px;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px;
+}
+
+.site-name{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    justify-items: center;
+}
+.motto{
+    margin-top: 0;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+}
+
+nav a{
+    color: goldenrod;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 354px;
+    background-color: #f9f9f9;
+    position: relative;
+    gap: 20px;
+}
+
+.banner-left img,
+.banner-right img{
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 0px 5px 10px goldenrod;
+}
+
+.banner-text{
+    text-align: center;
+    background-color: rgba(0, 85, 0, 0.6);
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+    justify-items: center;
+    max-width: 750px;
+    max-height: 350px;
+    box-shadow: 0px 5px 10px goldenrod;
+}
+
+.banner-text h1{
+    margin: auto;
+    color: goldenrod;
+}
+
+.intro{
+    text-align: center;
+    padding: 40px;
+}
+.intro h2{
+    color: green;
+}
+
+.intro-image{
+    text-align: center;
+    margin: 20px 0;
+}
+.intro-image img{
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 5px 20px goldenrod;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.menu-cont{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: fit-content;
+    justify-content: space-between;
+}
+
+.menu-cont img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 5px 20px goldenrod;
+}
+
+.mission{
+    background-color: wheat;
+    padding: 40px;
+    text-align: center;
+}
+
+.mission h2{
+    color: green;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.cause,
+.effect{
+    display: inline-block;
+    width: 25%;
+    height: 520px;
+    margin: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 15px;
+    box-shadow: 0 0 10px goldenrod;
+    vertical-align: top;
+}
+
+.cause img,
+.effect img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cause p,
+.effect p{
+    color: #333;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

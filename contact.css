@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: rgb(10, 3, 3);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+.logo img{
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav a{
+    color: goldenrod;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-info{
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-info h2{
+    color: green;
+    margin-bottom: 15px;
+}
+
+.contact-info p{
+    margin: 8px 0;
+}
+
+.contact-info a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.contact-form-sec{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(248, 235, 212);
+}
+
+.contact-form-sec h2{
+    color: green;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background: url(images/logo\ wit\ words.jpg) center no-repeat;
+    background-size: 300px;
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px goldenrod;
+}
+
+.contact-form label{
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contact-form button{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: green;
+    color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: darkgreen;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.social-media{
+    text-align: center;
+    padding: 40px;
+}
+
+.social-media h2{
+    color: green;
+    margin-bottom: 15px;
+}
+
+.links a{
+    color: goldenrod;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.links a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
